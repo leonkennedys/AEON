@@ -1,10 +1,40 @@
+
 <!DOCTYPE html>
 <html>
 <head>
     <title>HTML Tags Example</title>
+    <style>
+        ul {
+            list-style-type: disc;
+            color: #3366FF;
+            font-size: 18px;
+        }
+        
+        ol {
+            list-style-type: decimal;
+            color: rgb(255, 99, 71);
+            font-size: 18px;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+            background-color: #F5F5F5;
+        }
+
+        th, td {
+            border: 1px solid #000;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #FFD700;
+        }
+    </style>
 </head>
 <body>
-
     <h1>This is a Heading Level 1</h1>
 
     <h2>This is a Heading Level 2</h2>
@@ -23,5 +53,25 @@
     <p>And here's an image:</p>
     <img src="https://www.example.com/image.jpg" alt="Example Image">
 
+    <ul>
+        <li>This is an unordered list item.</li>
+        <li>Another item in the unordered list.</li>
+    </ul>
+
+    <ol>
+        <li>This is an ordered list item.</li>
+        <li>Another item in the ordered list.</li>
+    </ol>
+
+    <table>
+        <tr>
+            <th>Header 1</th>
+            <th>Header 2</th>
+        </tr>
+        <tr>
+            <td style="background-color: #F2F2F2;">Data 1</td>
+            <td>Data 2</td>
+        </tr>
+    </table>
 </body>
 </html>
